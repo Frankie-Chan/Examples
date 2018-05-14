@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Tic Tac Toe">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Frankie Chan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Tic Tac Toe.css">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="Tic Tac Toe.js"></script>
+  </head>
+  
+  <body>
+    <h1>Tic Tac Toe</h1>
+	  <div class="radiobtn">
+	    <form>
+	      <input type="radio" name="mode" value="Easy" id="easy" checked>Easy
+	      <input type="radio" name="mode" value="Hard" id="hard">Hard
+	    </form>
+	  </div>
+	  <table id="gamedisplay">
+	    <tr>
+	      <td id="0"></td>
+		  <td id="1"></td>
+		  <td id="2"></td>
+	    </tr>
+		<tr>
+	      <td id="3"></td>
+		  <td id="4"></td>
+		  <td id="5"></td>
+	    </tr>
+		<tr>
+	      <td id="6"></td>
+		  <td id="7"></td>
+		  <td id="8"></td>
+	    </tr>
+	  </table>
+	  <div class="endgame">
+	    <div class="text"></div>
+	  </div>
+	  <button id="reset">Restart</button>
+  </body>
+</html>
